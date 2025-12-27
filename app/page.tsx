@@ -31,14 +31,14 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-2xl blur-xl opacity-30" style={{ backgroundColor: '#90AB8B' }}></div>
                 <div className="relative bg-white rounded-2xl px-6 sm:px-8 py-4 sm:py-6 shadow-lg border-2" style={{ borderColor: '#90AB8B' }}>
                   <h1 className="text-3xl sm:text-5xl font-bold mb-2" style={{ color: '#3B4953' }}>
-                    EeyeSh
+                    Practice Yeah
                   </h1>
                   <div className="w-20 h-1 mx-auto rounded-full" style={{ backgroundColor: '#90AB8B' }}></div>
                 </div>
               </div>
             </div>
             <p className="text-sm sm:text-lg px-2 font-medium mt-3" style={{ color: '#3B4953' }}>
-              Odoo ta narin medlegiig shalgana
+              All in one english quiz preparation platform students christmas bye bye
             </p>
           </div>
 
