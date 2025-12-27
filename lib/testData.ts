@@ -1563,5 +1563,351 @@ export const cookingVocabularyTest: Test = {
     ]
 };
 
-export const availableTests: Test[] = [demoTest, eysh2Test, a2b1Test, b1b2Test, cookingVocabularyTest];
+export const standoffTest: Test = {
+    id: 'standoff',
+    title: 'Standoff',
+    description: 'FPS Games and War Vocabulary - B1 Level',
+    totalPoints: 100,
+    questions: [
+        {
+            id: 1,
+            task: 'Task 1. Vocabulary - Weapons and Equipment',
+            question: 'In first-person shooter games, players use a _____ to aim and shoot at enemies.',
+            type: 'multiple-choice',
+            options: ['A. controller', 'B. weapon', 'C. keyboard', 'D. screen', 'E. headset'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 2,
+            question: 'The soldier reloaded his _____ before entering the building.',
+            type: 'multiple-choice',
+            options: ['A. helmet', 'B. rifle', 'C. uniform', 'D. boots', 'E. backpack'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 3,
+            question: 'During the battle, the team needed to _____ their position to avoid enemy fire.',
+            type: 'multiple-choice',
+            options: ['A. defend', 'B. attack', 'C. retreat', 'D. advance', 'E. surrender'],
+            correctAnswer: 0, // A
+            points: 5
+        },
+        {
+            id: 4,
+            question: 'The sniper found a good _____ position on top of the building.',
+            type: 'multiple-choice',
+            options: ['A. hiding', 'B. camping', 'C. running', 'D. jumping', 'E. swimming'],
+            correctAnswer: 0, // A
+            points: 5
+        },
+        {
+            id: 5,
+            question: 'Players must work as a _____ to win the match.',
+            type: 'multiple-choice',
+            options: ['A. individual', 'B. team', 'C. solo', 'D. enemy', 'E. opponent'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 6,
+            task: 'Task 2. Vocabulary - Combat Terms',
+            question: 'When you _____ an enemy, you eliminate them from the game.',
+            type: 'multiple-choice',
+            options: ['A. revive', 'B. heal', 'C. kill', 'D. save', 'E. protect'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 7,
+            question: 'The player used a _____ to protect themselves from explosions.',
+            type: 'multiple-choice',
+            options: ['A. shield', 'B. sword', 'C. knife', 'D. grenade', 'E. bomb'],
+            correctAnswer: 0, // A
+            points: 5
+        },
+        {
+            id: 8,
+            question: 'In war, soldiers often need to _____ through dangerous areas.',
+            type: 'multiple-choice',
+            options: ['A. walk', 'B. run', 'C. navigate', 'D. fly', 'E. swim'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 9,
+            question: 'The _____ exploded near the enemy base, causing damage.',
+            type: 'multiple-choice',
+            options: ['A. medical kit', 'B. ammunition', 'C. grenade', 'D. map', 'E. radio'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 10,
+            question: 'Players need good _____ to react quickly in combat situations.',
+            type: 'multiple-choice',
+            options: ['A. reflexes', 'B. patience', 'C. memory', 'D. creativity', 'E. imagination'],
+            correctAnswer: 0, // A
+            points: 5
+        },
+        {
+            id: 11,
+            task: 'Task 3. Vocabulary - Strategy and Tactics',
+            question: 'The team decided to _____ the enemy from behind.',
+            type: 'multiple-choice',
+            options: ['A. escape', 'B. ambush', 'C. surrender', 'D. retreat', 'E. defend'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 12,
+            question: 'Before the mission, the commander gave clear _____ to all soldiers.',
+            type: 'multiple-choice',
+            options: ['A. questions', 'B. answers', 'C. instructions', 'D. problems', 'E. mistakes'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 13,
+            question: 'The player checked the _____ to see where enemies were located.',
+            type: 'multiple-choice',
+            options: ['A. scoreboard', 'B. minimap', 'C. menu', 'D. settings', 'E. inventory'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 14,
+            question: 'In FPS games, players often need to _____ their health when it gets low.',
+            type: 'multiple-choice',
+            options: ['A. lose', 'B. reduce', 'C. restore', 'D. damage', 'E. destroy'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 15,
+            question: 'The soldier was _____ after being hit by enemy fire.',
+            type: 'multiple-choice',
+            options: ['A. healthy', 'B. wounded', 'C. strong', 'D. ready', 'E. prepared'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 16,
+            task: 'Task 4. Fill in the Blank',
+            question: 'The team had to _____ the enemy base to complete the objective.',
+            type: 'multiple-choice',
+            options: ['A. leave', 'B. abandon', 'C. capture', 'D. escape', 'E. ignore'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 17,
+            question: 'Players must _____ ammunition carefully during long battles.',
+            type: 'multiple-choice',
+            options: ['A. waste', 'B. conserve', 'C. lose', 'D. forget', 'E. ignore'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 18,
+            question: 'The _____ of the mission was to rescue the hostages.',
+            type: 'multiple-choice',
+            options: ['A. problem', 'B. difficulty', 'C. objective', 'D. failure', 'E. mistake'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 19,
+            question: 'In war games, players can choose different _____ classes like sniper or medic.',
+            type: 'multiple-choice',
+            options: ['A. enemy', 'B. weapon', 'C. character', 'D. level', 'E. score'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 20,
+            question: 'The explosion created a lot of _____ that blocked the view.',
+            type: 'multiple-choice',
+            options: ['A. light', 'B. smoke', 'C. sound', 'D. music', 'E. silence'],
+            correctAnswer: 1, // B
+            points: 5
+        }
+    ]
+};
+
+export const zootopiaTest: Test = {
+    id: 'zootopia',
+    title: 'Zootopia',
+    description: 'Animals and Police Chase Vocabulary - B1 Level',
+    totalPoints: 100,
+    questions: [
+        {
+            id: 1,
+            task: 'Task 1. Vocabulary - Animals',
+            question: 'A _____ is a small furry animal that lives in burrows and is known for being quick.',
+            type: 'multiple-choice',
+            options: ['A. elephant', 'B. rabbit', 'C. whale', 'D. shark', 'E. eagle'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 2,
+            question: 'The _____ is a large cat known for its strength and is often called the king of the jungle.',
+            type: 'multiple-choice',
+            options: ['A. fox', 'B. lion', 'C. mouse', 'D. bird', 'E. fish'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 3,
+            question: 'A _____ is a clever wild animal with a bushy tail that lives in forests.',
+            type: 'multiple-choice',
+            options: ['A. bear', 'B. wolf', 'C. fox', 'D. deer', 'E. rabbit'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 4,
+            question: 'The _____ is the largest land animal and has a long trunk.',
+            type: 'multiple-choice',
+            options: ['A. giraffe', 'B. elephant', 'C. rhino', 'D. hippo', 'E. zebra'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 5,
+            question: 'A _____ is a fast-running animal with black and white stripes.',
+            type: 'multiple-choice',
+            options: ['A. tiger', 'B. zebra', 'C. panda', 'D. leopard', 'E. cheetah'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 6,
+            task: 'Task 2. Vocabulary - Police and Crime',
+            question: 'The police officer put the criminal in _____ after catching them.',
+            type: 'multiple-choice',
+            options: ['A. handcuffs', 'B. shoes', 'C. uniform', 'D. car', 'E. office'],
+            correctAnswer: 0, // A
+            points: 5
+        },
+        {
+            id: 7,
+            question: 'The detective needed to _____ the crime scene for evidence.',
+            type: 'multiple-choice',
+            options: ['A. leave', 'B. ignore', 'C. investigate', 'D. forget', 'E. destroy'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 8,
+            question: 'During the police _____, the officers chased the suspect through the city streets.',
+            type: 'multiple-choice',
+            options: ['A. meeting', 'B. chase', 'C. rest', 'D. break', 'E. party'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 9,
+            question: 'The police car turned on its _____ to alert other drivers.',
+            type: 'multiple-choice',
+            options: ['A. radio', 'B. siren', 'C. window', 'D. door', 'E. seat'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 10,
+            question: 'The officer had to _____ the suspect to stop them from running away.',
+            type: 'multiple-choice',
+            options: ['A. help', 'B. arrest', 'C. release', 'D. ignore', 'E. forget'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 11,
+            task: 'Task 3. Vocabulary - Actions and Movement',
+            question: 'The rabbit can _____ very quickly to escape from danger.',
+            type: 'multiple-choice',
+            options: ['A. walk', 'B. hop', 'C. fly', 'D. swim', 'E. crawl'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 12,
+            question: 'The police officer had to _____ the criminal who was trying to escape.',
+            type: 'multiple-choice',
+            options: ['A. catch', 'B. lose', 'C. ignore', 'D. forget', 'E. help'],
+            correctAnswer: 0, // A
+            points: 5
+        },
+        {
+            id: 13,
+            question: 'The suspect tried to _____ from the police by hiding in an alley.',
+            type: 'multiple-choice',
+            options: ['A. approach', 'B. escape', 'C. help', 'D. assist', 'E. cooperate'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 14,
+            question: 'The detective needed to _____ clues to solve the mystery.',
+            type: 'multiple-choice',
+            options: ['A. lose', 'B. forget', 'C. collect', 'D. ignore', 'E. destroy'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 15,
+            question: 'The police had to _____ the area to find the missing animal.',
+            type: 'multiple-choice',
+            options: ['A. leave', 'B. search', 'C. ignore', 'D. forget', 'E. abandon'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 16,
+            task: 'Task 4. Vocabulary - Characteristics',
+            question: 'The fox is known for being very _____ and clever.',
+            type: 'multiple-choice',
+            options: ['A. stupid', 'B. slow', 'C. cunning', 'D. weak', 'E. lazy'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 17,
+            question: 'The police officer was very _____ and always followed the rules.',
+            type: 'multiple-choice',
+            options: ['A. dishonest', 'B. lazy', 'C. honest', 'D. careless', 'E. rude'],
+            correctAnswer: 2, // C
+            points: 5
+        },
+        {
+            id: 18,
+            question: 'The cheetah is the _____ land animal in the world.',
+            type: 'multiple-choice',
+            options: ['A. slowest', 'B. fastest', 'C. smallest', 'D. largest', 'E. weakest'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 19,
+            question: 'The detective was very _____ and noticed small details that others missed.',
+            type: 'multiple-choice',
+            options: ['A. careless', 'B. observant', 'C. blind', 'D. lazy', 'E. forgetful'],
+            correctAnswer: 1, // B
+            points: 5
+        },
+        {
+            id: 20,
+            question: 'In Zootopia, different animals live together in _____ and harmony.',
+            type: 'multiple-choice',
+            options: ['A. conflict', 'B. peace', 'C. war', 'D. chaos', 'E. confusion'],
+            correctAnswer: 1, // B
+            points: 5
+        }
+    ]
+};
+
+export const availableTests: Test[] = [demoTest, eysh2Test, a2b1Test, b1b2Test, cookingVocabularyTest, standoffTest, zootopiaTest];
 
