@@ -22,7 +22,7 @@ export default function TestPage() {
     const [questionKey, setQuestionKey] = useState(0);
     const [showExitConfirm, setShowExitConfirm] = useState(false);
     const autoAdvanceTimerRef = useRef<NodeJS.Timeout | null>(null);
-
+    //human
     useEffect(() => {
         if (!test) {
             router.push('/');
