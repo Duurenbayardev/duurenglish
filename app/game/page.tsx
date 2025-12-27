@@ -5,10 +5,11 @@ import Link from 'next/link';
 import { GameIcon } from '@/components/Icons';
 
 const WORDS = [
-    'HAN ERDENE', 'DOCUMENT', 'MISHEEL', 'IHBAYAR', 'HATANERDENE',
+    'HAN ERDENE', 'DOCUMENT', 'MISHEEL', 'IHBAYAR', 'HATANERDENE', 'NANDINBOLOR', 'ANAND',
     'ENGLISH', 'STUPID', 'COOKING', 'FUNCTION', 'CHRISTMAS',
     'PART', 'SCREEN', 'DATA STORAGE', 'CONNECTION', 'PROTECTION',
-    'STUDY', 'PRACTICE', 'RULES', 'ARRIVE', 'CHECKING'
+    'STUDY', 'PRACTICE', 'RULES', 'ARRIVE', 'CHECKING', 'ICECREAM', 'MONSTER', 'CONSISTENT', 'MOTIVATION',
+    'UNDERWEAR', 'UNDERWORLD', 'PUNISHMENT'
 ];
 
 const NAMES = ['HAN ERDENE', 'MISHEEL', 'IHBAYAR', 'HATANERDENE'];
@@ -29,7 +30,15 @@ const WORD_TRANSLATIONS: Record<string, string> = {
     'PRACTICE': 'Дасгал',
     'RULES': 'Дүрэм',
     'ARRIVE': 'Ирэх',
-    'CHECKING': 'Шалгах'
+    'CHECKING': 'Шалгах',
+    'ICECREAM': 'Зайрмаг',
+    'MONSTER': 'Мангас ',
+    'CONSISTENT': 'Тууштай',
+    'MOTIVATION': 'Урам зориг',
+    'UNDERWEAR': 'Дотуур хувцас',
+    'UNDERWORLD ': 'Газар Доорх',
+    'PUNISHMENT ': 'Шийтгэл',
+
 };
 
 const MAX_WRONG_GUESSES = 6;
